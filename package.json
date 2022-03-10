@@ -1,0 +1,29 @@
+{
+  "name": "toDoApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "server": "node app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^6.2.1",
+    "create-react-app": "^4.0.3",
+    "express": "^4.17.1",
+    "immutable": "^4.0.0-rc.14",
+    "jtest": "0.0.1",
+    "mysql": "^2.18.1",
+    "node-sass": "^4.14.1",
+    "react-beautiful-dnd": "^13.1.0",
+    "toastr": "^2.1.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
